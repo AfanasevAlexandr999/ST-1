@@ -54,5 +54,5 @@ TEST(st1, sumPrime12) {
 }
 
 TEST(st1, sumPrime13) {
-  EXPECT_EQ(sumPrime(10), 18);
+  EXPECT_EQ(sumPrime(10), 17);
 }
