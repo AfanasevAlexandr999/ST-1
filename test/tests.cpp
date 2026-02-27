@@ -1,5 +1,3 @@
-// Copyright 2025 UNN-CS
-
 #include <gtest/gtest.h>
 #include <cstdint>
 #include "alg.h"
@@ -21,7 +19,7 @@ TEST(st1, checkPrime4) {
   EXPECT_TRUE(checkPrime(3));
 }
 
- TEST(st1, nPrime5) {
+TEST(st1, nPrime5) {
   EXPECT_EQ(nPrime(1), 2);
 }
 
